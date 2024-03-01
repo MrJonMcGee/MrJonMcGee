@@ -1,0 +1,139 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header and navigation menu styling */
+header {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+#####images 
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f5f5f5;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image {
+    width: 20%; /* Adjust the size as needed */
+    margin: 0 10px; /* Space between the images */
+}
+
+.central-image {
+    width: 50%; /* Adjust the size as needed */
+    margin: 0 10px; /* Space between the images */
+}
+
+
+
+
+
+
+
+
+
+
+
+-------------------
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Or any background color you prefer */
+    font-family: Arial, sans-serif; /* Or any font-family you prefer */
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Adjusted from 250px to 500px */
+    gap: 20px; /* Adjust the space between cards */
+    padding: 20px;
+    justify-content: center; /* Center the grid within the about-section */
+}
+
+.profile-card {
+    background-color: #ffffff; /* Card background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    padding: 15px;
+    text-align: center; /* Centering text */
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px); /* Slight raise effect on hover */
+}
+
+.profile-card h2 {
+    margin: 10px 0; /* Spacing around name */
+}
+
+.profile-card img {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners for image */
+}
+
+.profile-card p {
+    font-size: 0.9em; /* Smaller text for the paragraph */
+    line-height: 1.6; /* Spacing between lines */
+}
+
+
+
+
