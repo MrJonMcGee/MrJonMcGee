@@ -137,3 +137,40 @@ body {
 
 
 
+/* Additions to your existing style.css */
+
+.data-analysis-main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center; /* Centering the content */
+}
+
+.story-point {
+    display: inline-block;
+    margin: 20px;
+    position: relative; /* For absolute positioning of arrows */
+}
+
+.story-point img {
+    width: 100%; /* Adjust width as necessary, could be 100% of the .story-point div */
+    border-radius: 10px; /* Optional, for rounded corners */
+}
+
+.story-point p {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.arrow {
+    font-size: 2em; /* Large arrow size */
+    color: #333; /* Arrow color */
+    position: absolute;
+    right: -25px; /* Position the arrow to the right of the image */
+    top: 50%; /* Center the arrow vertically */
+    transform: translateY(-50%);
+}
+
+/* You might want to hide the last arrow as there is no next image */
+.story-point:last-child .arrow {
+    display: none;
+}
